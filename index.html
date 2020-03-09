@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TO-DO-LIST</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="./CSS/main.css">
+    </head>
+
+    <body class="flexbox">
+
+        <h1 id="editHeader">JAVASCRIPT TO-DO-LIST</h1>
+        <form name="myForm" action="#" method="GET">
+            <ul class="editList">
+               <h2 >Add to To-Dos</h2>
+                <li>
+                    <label for="TextValue">
+                       Enter Text: <br><br>
+                         <input type = "text" id="TextValue" name="TextValue"> 
+
+                      </label>
+               
+                </li>
+            <p>
+                <li>
+                     <label>
+                          <button  id="button-color" onclick="Addform()">Add To-Dos</button>
+                     </label>
+                </li>
+            </p>
+
+            <div id="editList">
+                <h2 id="Active">Active To-Dos</h2>
+            </div>
+
+            </ul>
+             
+        </form>
+
+    
+        <div id="position-div">
+            <h2 id="Final">Completed</h2>
+        </div>
+
+        <ul id="Completed"></ul>
+        <ul id="Active-To-Dos"></ul>
+          
+      
+        
+        
+    </body>
+</html>
